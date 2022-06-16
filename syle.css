@@ -1,0 +1,116 @@
+body
+{
+    background-color: #0d1a2d;
+    
+
+    
+    
+}
+.container
+{   width: auto;
+    height: auto;
+    display:flex;
+    margin-top: 100px;
+    justify-content: center;
+    
+    
+}
+#main
+{
+    
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: #15273f;
+    transition: box-shadow 0.2s;
+    transition: margin-top 0.2s;
+    transition: margin-left 0.2s;
+}
+#main:hover 
+{
+    box-shadow: 5px 7px rgba(3, 3, 3, 0.58);
+    margin-top: -20px;
+    margin-left: -20px;
+  }
+.boximg
+{
+    
+    border-radius: 30px;
+    width:250px;
+    height:250px;
+    padding:20px;
+    margin-left:5px;
+    
+}
+#username
+{
+    color:white;
+    
+    margin-left:30px;
+
+    
+
+}
+#caption
+{
+    color:#465b79;
+    font-style:normal;
+    margin-left:30px;
+}
+.icons
+{
+    display:flex;
+    grid-gap:100px;
+}
+#eth
+{
+    color: aqua;
+    margin-left:30px;
+}
+#eth:hover
+{
+    color:grey;
+}
+#clock 
+{
+    font-style: none;
+    font-size: 10px;
+    margin-top: 5px;
+    color:aqua;
+}
+#clock:hover
+{
+    
+    color:grey;
+}
+.forhr
+{
+    margin-top: 10px;
+    width: 80%;
+    margin-left:30px;
+    border-bottom: 1px solid rgb(255, 243, 243);
+}
+.myphoto
+{
+    width: 30px;
+    border-radius: 100%;
+    float:left;
+    margin-top:10px;
+    margin-left:30px;
+}
+#cretedby
+{
+    margin-top: 15px;
+    margin-left:2px;
+    float:left;
+    color:grey;
+}
+#name
+{
+    margin-top:15px;
+    color: white;
+}
+.ending
+{
+    grid-gap:100px;
+}
